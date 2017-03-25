@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginRight="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#421"
+        android:padding="8dp"
+        app:cardCornerRadius="8dp"
+        android:id="@+id/sendcard"
+        app:cardElevation="3dp">
+
+            <!--android:layout_width="100dp"-->
+        <ImageButton
+        android:layout_margin="8dp"
+        android:id="@+id/rcvimgbuttn"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100dp"
+        android:layout_width="100dp"/>
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/sendusermsg"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/senddateRcvSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+
+            android:textColor="#fff"
+            android:textSize="12sp"/>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

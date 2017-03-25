@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "158984387814",
+    "firebase_url": "https://chatapp-f1283.firebaseio.com",
+    "project_id": "chatapp-f1283",
+    "storage_bucket": "chatapp-f1283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158984387814:android:aeec92895c9a9ce0",
+        "android_client_info": {
+          "package_name": "com.example.bakhtiyar.simplechatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158984387814-a2sgt3998a6cmt1alm73qeq0fmlt624g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bakhtiyar.simplechatapplication",
+            "certificate_hash": "703945673E8F3AC0EDB9C818D7F48F749A258C84"
+          }
+        },
+        {
+          "client_id": "158984387814-34jfb8tbvqt9kvqhvadvv69o4q45mmha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOV5KP5Nd0WVYRxz4MqLcpDql1CBoQy6A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158984387814-34jfb8tbvqt9kvqhvadvv69o4q45mmha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
