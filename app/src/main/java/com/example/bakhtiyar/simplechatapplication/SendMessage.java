@@ -71,8 +71,10 @@ public class SendMessage extends Fragment {
 
                 UserInfo us = dataSnapshot.getValue(UserInfo.class);
 
+                if(!(us.uuid.equals((FirebaseAuth.getInstance().getCurrentUser().getUid())))) {
                     info.add(us);
                     userAdapter.notifyDataSetChanged();
+                }
 
             }
 
